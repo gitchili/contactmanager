@@ -5,9 +5,9 @@ const Navigation = props => {
   const { branding } = props;
   return (
     <div>
-      <nav className="navbar navbar-expand-m navbar-dark bg-dark mb-3 py-0">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-3 py-0">
         <div className="container">
-          <a href="/" className="nav-brand">
+          <a style={{ color: 'white' }} href="/" className="nav-brand">
             {branding}
           </a>
           <div>
